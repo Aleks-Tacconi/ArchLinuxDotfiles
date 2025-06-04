@@ -76,7 +76,6 @@ other=(
     "wl-clipboard"                # Clipboard for wayland
     "xdg-desktop-portal-hyprland" # Screen-sharing for hyprland
     "xdg-desktop-portal"          # Screen-sharing for hyprland
-    "dhcp"                        # Dynamic Host Configuration Protocol 
     "papirus-icon-theme"          # Icon theme
 )
 
