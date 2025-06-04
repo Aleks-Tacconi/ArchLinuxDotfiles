@@ -1,0 +1,32 @@
+{
+    "layer": "top",
+    "margin-top": -2,
+    "margin-bottom": -5,
+
+    "layer": "top",
+    "margin-left": 4,
+    "margin-right": 0,    
+    "spacing": 0,
+
+    "include": [
+        "~/.config/waybar/modules.json"
+    ],
+
+    "modules-left": [
+        // "custom/appmenu",
+        "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+    ],
+
+    "modules-right": [
+        "custom/updates",
+        "pulseaudio",
+        "battery", 
+        "clock",
+        "group/hardware",
+        "network",
+        "custom/exit",
+    ]
+}

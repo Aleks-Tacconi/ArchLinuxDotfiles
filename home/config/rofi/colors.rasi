@@ -1,0 +1,12 @@
+* {
+    background:             #0e0e0e;
+    foreground:             #c0caf5;
+
+    primary:                #ffffff;
+    on-primary-fixed:       #1e1e2e;
+
+    on-surface:             #c0caf5;
+
+    border-width:           3px;
+    border-radius:          12px;
+}
