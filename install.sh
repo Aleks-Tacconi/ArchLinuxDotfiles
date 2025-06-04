@@ -71,6 +71,7 @@ other=(
     "hyprland"                    # Tiling window manager
     "hyprshot"                    # Screenshot util for hyprland
     "waybar"                      # Hyprland status bar
+    "wlogout"                     # Logout menu
     "swaybg"                      # Wallpaper for hyprland
     "hyprlock"                    # Lockscreen
     "wl-clipboard"                # Clipboard for wayland
@@ -105,21 +106,14 @@ fi
 # move dotfiles
 mkdir -p ~/.config
 
-rm -rf ~/.config/eza
-rm -rf ~/.config/hypr
-rm -rf ~/.config/kitty
-rm -rf ~/.config/yazi
-rm -rf ~/.config/rofi
+rm -rf ~/.config
 rm -rf ~/.fonts
 rm -rf ~/.themes
 
-cp -r ./home/config/eza ~/.config/eza
-cp -r ./home/config/hypr ~/.config/hypr
-cp -r ./home/config/kitty ~/.config/kitty
-cp -r ./home/config/yazi ~/.config/yazi
-cp -r ./home/config/rofi ~/.config/rofi
+cp -r ./home/config ~/.config
 cp -r ./home/fonts ~/.fonts
 cp -r ./home/themes ~/.themes
+
 cp ./home/icon.png ~/.icon.png
 cp ./home/wallpaper.png ~/.wallpaper.png
 cp ./home/pylintrc ~/.pylintrc

@@ -13,7 +13,7 @@
 
     "custom/exit": {
         "format": "",
-        "on-click": "hyprlock",
+        "on-click": "wlogout -b 5 -T $(( $(hyprctl -j monitors | jq '.[] | select(.focused==true) | .height') / 4 )) -B $(( $(hyprctl -j monitors | jq '.[] | select(.focused==true) | .height') / 4 ))",
         "tooltip": false
     },
 
