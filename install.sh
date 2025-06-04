@@ -77,6 +77,7 @@ other=(
     "xdg-desktop-portal-hyprland" # Screen-sharing for hyprland
     "xdg-desktop-portal"          # Screen-sharing for hyprland
     "papirus-icon-theme"          # Icon theme
+    "bibata-cursor-git"           # Cursor theme
 )
 
 packages=(
