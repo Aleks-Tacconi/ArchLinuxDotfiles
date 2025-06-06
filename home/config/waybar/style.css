@@ -68,6 +68,8 @@ window#waybar {
     margin: 10px 15px 10px 0px;
 }
 
+
+#custom-notification,
 #pulseaudio {
     background-color: #ffffff;
     font-size: 16px;
@@ -137,3 +139,4 @@ window#waybar {
 #network.disconnected {
     background-color: #f53c3c;
 }
+

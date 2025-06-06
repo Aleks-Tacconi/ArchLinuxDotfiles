@@ -21,12 +21,12 @@
     ],
 
     "modules-right": [
-        "custom/updates",
+        "custom/notification",
         "pulseaudio",
         "battery", 
         "clock",
-        "group/hardware",
         "network",
         "custom/exit",
     ]
 }
+

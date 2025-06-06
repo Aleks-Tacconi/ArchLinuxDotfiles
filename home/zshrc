@@ -1,4 +1,3 @@
-
 if ! pgrep -x Hyprland > /dev/null; then
     # this is for a easier login without a display manager:
     #

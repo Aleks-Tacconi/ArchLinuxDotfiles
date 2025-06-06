@@ -80,6 +80,7 @@ other=(
     "swaybg"                      # Wallpaper for hyprland
     "hyprlock"                    # Lockscreen
     "wl-clipboard"                # Clipboard for wayland
+    "swaync"                      # Notification Client
     "xdg-desktop-portal-hyprland" # Screen-sharing for hyprland
     "xdg-desktop-portal"          # Screen-sharing for hyprland
     "papirus-icon-theme"          # Icon theme
