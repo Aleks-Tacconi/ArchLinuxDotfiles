@@ -68,6 +68,7 @@ gui_apps=(
     "rofi-wayland"                # Application launcher
     "seahorse"                    # App for managing PGP keys
     "nwg-look"                    # GTK settings
+    "qt6ct"                       # QT settings
 )
 
 other=(
