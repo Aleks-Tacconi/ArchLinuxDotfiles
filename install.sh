@@ -64,6 +64,7 @@ gui_apps=(
     "mission-center"              # Resource monitor
     "gimp"                        # Image manipulation program
     "obs-studio"                  # Screen recording
+    "nautilus"                    # File manager
     "rofi-wayland"                # Application launcher
     "seahorse"                    # App for managing PGP keys
 )
