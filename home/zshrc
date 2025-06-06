@@ -1,4 +1,19 @@
+
 if ! pgrep -x Hyprland > /dev/null; then
+    # this is for a easier login without a display manager:
+    #
+    # ls /etc/systemd/system/getty.target.wants/
+    # EDITOR=nvim sudo -E systemctl edit getty@tty1
+    #
+    # paste:
+    # [Service]
+    # ExecStart=
+    # ExecStart=-/sbin/agetty --autologin aleks-tacconi --noclear %I $TERM
+    #
+    #
+    # sudo systemctl daemon-reexec                   
+    # sudo systemctl restart getty@tty1
+    #
     Hyprland
 fi
 
