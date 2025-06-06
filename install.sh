@@ -65,6 +65,7 @@ gui_apps=(
     "gimp"                        # Image manipulation program
     "obs-studio"                  # Screen recording
     "rofi-wayland"                # Application launcher
+    "seahorse"                    # App for managing PGP keys
 )
 
 other=(
