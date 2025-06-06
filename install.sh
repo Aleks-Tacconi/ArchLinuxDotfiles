@@ -63,6 +63,7 @@ gui_apps=(
     "libreoffice"                 # Office tools
     "mission-center"              # Resource monitor
     "gimp"                        # Image manipulation program
+    "discord"                     # Voice and chat text
     "obs-studio"                  # Screen recording
     "nautilus"                    # File manager
     "rofi-wayland"                # Application launcher
