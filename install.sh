@@ -67,6 +67,7 @@ gui_apps=(
     "nautilus"                    # File manager
     "rofi-wayland"                # Application launcher
     "seahorse"                    # App for managing PGP keys
+    "nwg-look"                    # GTK settings
 )
 
 other=(
